@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Stock Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">Stock Tracker</div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Stock Tracker</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="login.html" class="nav-link">Login</a>
+                <a href="register.html" class="nav-link">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="auth-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            <p class="auth-link">
+                Don't have an account? <a href="register.html">Register here</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html> 

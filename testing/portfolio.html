@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Stock Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">Stock Tracker</div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Stock Tracker</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="login.html" class="nav-link">Login</a>
+                <a href="register.html" class="nav-link">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>My Portfolio</h2>
+        
+        <div class="portfolio-summary">
+            <div class="summary-card">
+                <h3>Total Value</h3>
+                <p class="value">$10,250.75</p>
+            </div>
+            <div class="summary-card">
+                <h3>Today's Change</h3>
+                <p class="value positive">+$125.50 (+1.24%)</p>
+            </div>
+        </div>
+
+        <div class="portfolio-holdings">
+            <h3>Holdings</h3>
+            <div class="holdings-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Symbol</th>
+                            <th>Shares</th>
+                            <th>Avg Price</th>
+                            <th>Current Price</th>
+                            <th>Total Value</th>
+                            <th>Return</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AAPL</td>
+                            <td>10</td>
+                            <td>$150.25</td>
+                            <td>$175.50</td>
+                            <td>$1,755.00</td>
+                            <td class="positive">+16.81%</td>
+                        </tr>
+                        <tr>
+                            <td>MSFT</td>
+                            <td>5</td>
+                            <td>$280.50</td>
+                            <td>$305.75</td>
+                            <td>$1,528.75</td>
+                            <td class="positive">+9.00%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
