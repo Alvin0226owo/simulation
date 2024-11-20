@@ -165,10 +165,10 @@ function Portfolio() {
       <h3>Holdings</h3>
       <table className="table">
         <thead>
-          <tr>
+          <tr className="table-primary">
             <th>Symbol</th>
             <th>Shares</th>
-            <th>Avg Price</th>
+            <th>Avg Buy Price</th>
             <th>Current Price</th>
             <th>Value</th>
             <th>Gain/Loss</th>

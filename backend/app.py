@@ -270,6 +270,10 @@ def test_auth():
         'user_id': user_id
     })
 
+@app.route("/testingbackend")
+def testingbackend():
+    return("<h1>Testing Backend</h1>")
+
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()

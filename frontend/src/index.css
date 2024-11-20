@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } 
+
+.table-primary {
+  background-color: #3185FC;
+  color: #000000;
+}
+
+.holdings {
+  background-color: #34E5FF;
+  color: #000000;
+}
